@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.fraunhofer.fokus</groupId>
+  <artifactId>choice-parser-example</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <description>Shows that multiple choice values are not reported to error handler</description>
+  <properties>
+    <hapifhir_version>6.4.0</hapifhir_version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>ca.uhn.hapi.fhir</groupId>
+      <artifactId>hapi-fhir-base</artifactId>
+      <version>${hapifhir_version}</version>
+    </dependency>
+    <dependency>
+      <groupId>ca.uhn.hapi.fhir</groupId>
+      <artifactId>hapi-fhir-structures-r4</artifactId>
+      <version>${hapifhir_version}</version>
+    </dependency>
+  </dependencies>
+</project>

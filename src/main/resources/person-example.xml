@@ -1,0 +1,12 @@
+<Patient xmlns="http://hl7.org/fhir">
+   <id value="ae2582e3-8376-3b7a-b4ae-4390b6a45ae8"></id>
+   <name>
+      <use value="official"></use>
+      <family value="John"></family>
+      <given value="Doe"></given>
+   </name>
+   <gender value="male"></gender>
+   <birthDate value="1977-08-14"></birthDate>
+   <deceasedBoolean value="true"></deceasedBoolean>
+   <deceasedDateTime value="2022-02-07T13:28:17-05:00"></deceasedDateTime>
+</Patient>
